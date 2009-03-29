@@ -3,7 +3,7 @@
 
 Name:           compat-python24-lxml
 Version:        2.0.5
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        ElementTree-like Python bindings for libxml2 and libxslt
 
 Group:          Development/Libraries
@@ -45,6 +45,9 @@ rm -rf %{buildroot}
 %{python_sitearch}/*
 
 %changelog
+* Sun Mar 29 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.0.5-3
+- rebuild for new F11 features
+
 * Sun Aug 10 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info - 2.0.5-2
 - rebuild for RPM Fusion
 
